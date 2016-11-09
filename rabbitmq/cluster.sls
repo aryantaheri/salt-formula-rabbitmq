@@ -2,7 +2,7 @@
 {%- if cluster.enabled %}
 
 include:
-- linux.network.host
+#- linux.network.host
 - rabbitmq.server.service
 
 rabbitmq_dirs:
