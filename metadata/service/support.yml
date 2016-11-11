@@ -2,10 +2,14 @@ parameters:
   rabbitmq:
     _support:
       collectd:
-        enabled: false
+        enabled: true
       heka:
         enabled: false
       sensu:
         enabled: true
       sphinx:
+        enabled: true
+      iptables:
+        enabled: true
+      config:
         enabled: true
